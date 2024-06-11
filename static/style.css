@@ -1,0 +1,57 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  text-align:center;
+  font-family: Calibri, sans-serif;
+}
+body {
+  background-image: url("atteli/backgroundq.png");
+}
+.virsraksts{
+  background-color: #002814;
+  color: #e7daca;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+  font-family: Comic Sans MS;
+  font-size: 40px;
+  font-weight: bold;
+}
+.apraksts{
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:calc(100vh - 150px);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+.aprakstsd{
+  background-color: #a4ffa4;
+  color: #040302;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  border-style: solid;
+  border-color: #020202;
+  text-align: left;
+  box-shadow: 2px 2px 5px #fefdfc;
+}
+.apraksts h1 {
+  text-align: center;
+}
+.pogas{
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #f9f7f2;
+}
+.autors{
+  background-color: #002814;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+  text-align:right;
+  text-decoration-color: #ffffff;
+  font-size: 12px;
+}
